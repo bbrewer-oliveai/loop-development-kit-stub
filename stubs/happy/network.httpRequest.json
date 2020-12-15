@@ -11,8 +11,8 @@
         "responseCode": 200,
         "data": "aGVsbG8=",
         "headers": {
-          "Set-Cookie": ["crisp=cereal", "monster=nommm; SameSite=Strict"],
-          "Cache-Control": ["no-cache"]
+          "Set-Cookie": {"values": ["crisp=cereal", "monster=nommm; SameSite=Strict"]},
+          "Cache-Control": {"values": ["no-cache"]}
         }
       }
     }
