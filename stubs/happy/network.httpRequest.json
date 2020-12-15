@@ -1,0 +1,19 @@
+{
+    "service": "Network",
+    "method": "HTTPRequest",
+    "input":{
+      "matches":{
+        "url": "^.*$"
+      }
+    },
+    "output": {
+      "data": {
+        "responseCode": 200,
+        "data": "aGVsbG8=",
+        "headers": {
+          "Set-Cookie": ["crisp=cereal", "monster=nommm; SameSite=Strict"],
+          "Cache-Control": ["no-cache"]
+        }
+      }
+    }
+  }
