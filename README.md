@@ -4,10 +4,12 @@ This repo has an example, happy-path stub for the Network sensor.
 The stub is "programmed" through [GripMock](https://github.com/tokopedia/gripmock/), which sadly not the most mature product. The author, however, is fairly open to PRs, etc. to improve it.
 
 ### Running it
+With the default stubs directory (points to `stubs/happy`).
 ```bash
 ./run-stubs.sh
 ```
 
+With an explicit stubs directory.
 ```bash
 ./run-stubs.sh happy
 ```

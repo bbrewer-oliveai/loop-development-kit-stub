@@ -7,8 +7,10 @@ proto_paths=$(
     ls proto/*.proto | grep -v session.proto
 )
 
+echo 1>&2 -e "INFO: serving LDK stubs for:\n\n${proto_paths}\n"
+
 if [[ ! -d ${stub_directory} ]]; then
-    echo "ERROR: please make sure '${stub_directory}', as defined by the first argument, '${stub_type}', exists."
+    echo 1>&2 "ERROR: please make sure '${stub_directory}', as defined by the first argument, '${stub_type}', exists."
     exit 1
 fi
 
