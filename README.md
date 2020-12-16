@@ -21,6 +21,6 @@ With an explicit stubs directory.
 ```
 
 ## Using it
-Make sure your gRPC client is configured to use `localhost:4770` as its address field.
+Make sure your gRPC client is configured to use `localhost:4770` as its address field. An example can be found in https://github.com/open-olive/loop-development-kit/pull/30
 
 The stubs can be added or adjusted by following the documentation or looking at the example in `stubs/happy/network.httpRequest.json`.
