@@ -1,7 +1,7 @@
 ## GripMock stubs for LDK
 This repo has an example, happy-path stub for the Network sensor.
 
-The stub is "programmed" through [GripMock](https://github.com/tokopedia/gripmock/), which sadly not the most mature product. The author, however, is fairly open to PRs, etc. to improve it.
+The stub is "programmed" through [GripMock](https://github.com/tokopedia/gripmock/), which is, sadly, not the most mature product. The author, however, is fairly open to PRs, etc. to improve it.
 
 ### Running it
 First, pull in LDK proto files.
